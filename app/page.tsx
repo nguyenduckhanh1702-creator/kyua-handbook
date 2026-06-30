@@ -4,7 +4,7 @@ export default function Home() {
       <div className="mx-auto max-w-5xl">
 
         <h1 className="mb-8 text-5xl font-bold">
-          ☕ Kyua Handbook
+          ☕ Kyua Handbook TEST
         </h1>
 
         <input
