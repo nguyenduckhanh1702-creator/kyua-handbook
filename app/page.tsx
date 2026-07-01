@@ -3,54 +3,27 @@ export default function Home() {
     <main className="min-h-screen bg-gray-100 p-8">
       <div className="mx-auto max-w-5xl">
 
-        <h1 className="mb-8 text-5xl font-bold">
-          ☕ Kyua Handbook TEST
+        <h1 className="mb-6 text-4xl font-bold">
+          ☕ Kyua Order Analyzer
         </h1>
 
-        <input
-          type="text"
-          placeholder="🔍 Tìm công thức..."
-          className="mb-8 w-full rounded-xl border bg-white p-4 text-lg shadow"
+        <textarea
+          className="h-80 w-full rounded-xl border bg-white p-4"
+          placeholder="Dán đơn hàng ShopeeFood hoặc Grab vào đây..."
         />
 
-        <div className="grid gap-6">
+        <button className="mt-4 rounded-xl bg-black px-6 py-3 text-white">
+          Phân tích
+        </button>
 
-          <div className="rounded-2xl bg-white p-6 shadow">
-            <h2 className="mb-3 text-2xl font-bold">
-              🍵 Drinks
-            </h2>
+        <div className="mt-8 rounded-xl bg-white p-6 shadow">
+          <h2 className="text-2xl font-bold">
+            Kết quả
+          </h2>
 
-            <ul className="space-y-2">
-              <li>Banana Caramel Matcha</li>
-              <li>CB Salted Matcha</li>
-              <li>Jasmine Matcha</li>
-            </ul>
-          </div>
-
-          <div className="rounded-2xl bg-white p-6 shadow">
-            <h2 className="mb-3 text-2xl font-bold">
-              🥛 Ingredients
-            </h2>
-
-            <ul className="space-y-2">
-              <li>Vanilla Cream</li>
-              <li>Salted Cream</li>
-              <li>Caramel Sauce</li>
-            </ul>
-          </div>
-
-          <div className="rounded-2xl bg-white p-6 shadow">
-            <h2 className="mb-3 text-2xl font-bold">
-              📋 SOP
-            </h2>
-
-            <ul className="space-y-2">
-              <li>Mở quán</li>
-              <li>Đóng quán</li>
-              <li>Kiểm kê cuối ngày</li>
-            </ul>
-          </div>
-
+          <p className="mt-4 text-gray-500">
+            Chưa có dữ liệu.
+          </p>
         </div>
 
       </div>
